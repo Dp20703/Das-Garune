@@ -46,7 +46,7 @@ nav a {
 /*-------------------- section--------------------  */
 section {
     /* background-color: red; */
-    padding: 60px 100px
+    padding: 0px 100px
 }
 
 section .hero-text1 {
@@ -143,4 +143,30 @@ section .hero-text2 {
 
 .image .arrow i {
     font-size: 120px;
+}
+
+/*-------------------- text--------------------  */
+.text {
+    width: 100%;
+    height: 150px;
+    background-color: #000;
+
+}
+
+.text h1 {
+    color: #D5FF3F;
+    font-size: 90px;
+    text-transform: uppercase;
+}
+
+.text .part2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text .part2 i {
+    color: #D5FF3F;
+    margin:15px 33px;
+    font-size: 40px;
 }
